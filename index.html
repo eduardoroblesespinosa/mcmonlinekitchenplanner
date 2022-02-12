@@ -19,6 +19,12 @@
   <link rel="stylesheet" type="text/css" href="https://www.kitchenplanner.net/theme/2014Front/css/bootstrap-kop.css" />
   <link rel="stylesheet" type="text/css" href="https://www.kitchenplanner.net/kopjs/css/products-comparison-table.css" />
   <link rel="stylesheet" type="text/css" href="https://www.kitchenplanner.net/theme/2014Front/css/icons.css" />
+	<script>
+        if (!location.hash.replace('#', '').length) {
+            location.href = location.href.split('#')[0] + '#' + (Math.random() * 100).toString().replace('.', '');
+            location.reload();
+        }
+    </script>
 </head>
 <body>
 
